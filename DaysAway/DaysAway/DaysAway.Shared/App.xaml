@@ -1,0 +1,10 @@
+﻿<Application
+    x:Class="DaysAway.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DaysAway">
+    <Application.Resources>
+        <local:SignificantLifeEvent x:Key="Event"/>
+        <local:StringFormatConverter x:Key="StringFormatConverter"/>
+    </Application.Resources>
+</Application>
